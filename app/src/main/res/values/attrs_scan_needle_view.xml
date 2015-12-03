@@ -1,0 +1,10 @@
+<resources>
+    <declare-styleable name="ScanNeedleView">
+        <attr name="needleGravity">
+            <flag name="top" value="0x0"/>
+            <flag name="center" value="0x1"/>
+            <flag name="bottom" value="0x2"/>
+        </attr>
+        <attr name="needleMove" format="integer"/>
+    </declare-styleable>
+</resources>
